@@ -10,8 +10,10 @@ In front of you is data going back to 2016. Let’s imagine that it’s December
 The dataset contains the abbreviation ESRB. The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
 
 **Data Cleaning**
-- What to do with NaNs? Decided to keep them rather than average, 
-- Slimmed down
+- What to do with NaNs? Decided to keep them rather than average, due to bias from averaging across categories
+- Slimmed down to post 2000 games in post_2000_df for most analyses 
+- Didn't fill in missing year_of_release, not much sales impact
+- Some minor edits (i.e. game with wrong year)
 
 **Initial Observations:**
 - There are many missing critic and user scores, figure out what to do with them
