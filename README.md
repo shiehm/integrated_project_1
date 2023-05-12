@@ -25,7 +25,7 @@ The dataset contains the abbreviation ESRB. The Entertainment Software Rating Bo
 - Create an average user / critic score column
 - Create separate grouped tables (by console, genre, rating) and aggregate there
 
-**Analysis:**
+**Analysis**
 - Examine impact on sales from possible factors: platform, genre, scores, rating
 - Examine regional differences (are some games a hit in specific regions?)
 - Determine the factors that impact sales
