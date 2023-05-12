@@ -15,12 +15,12 @@ The dataset contains the abbreviation ESRB. The Entertainment Software Rating Bo
 - Didn't fill in missing year_of_release, not much sales impact
 - Some minor edits (i.e. game with wrong year)
 
-**Initial Observations:**
+**Initial Observations**
 - There are many missing critic and user scores, figure out what to do with them
 - Many missing ratings as well
 - Some missing years, can change data type though it's not essential
 
-**Features:**
+**Features**
 - Create a total sales column, regional make-up of sales
 - Create an average user / critic score column
 - Create separate grouped tables (by console, genre, rating) and aggregate there
